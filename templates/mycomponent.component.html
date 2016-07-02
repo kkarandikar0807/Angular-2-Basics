@@ -1,0 +1,5 @@
+ Hi, I am <span [style.color]="inputElement.value === 'yes' ? 'red' : 'blue'">{{name}}</span> and this is my first component. <span [class.is-awesome]="inputElement.value === 'yes'">Is it awesome?</span><br/>
+<input type="text" #inputElement (keyup)="0">
+<br><br>
+<button [disabled]="inputElement.value != 'yes'">Enabled only if 'yes' is entered</button>
+<test></test>
