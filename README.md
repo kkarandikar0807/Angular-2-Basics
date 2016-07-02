@@ -28,3 +28,4 @@ npm start
 
 4: Visit localhost:3000 (default) if the tab hasn't opened automatically
 "#Angular-2-Basics" 
+# Angular-2-Puzzle-Game
